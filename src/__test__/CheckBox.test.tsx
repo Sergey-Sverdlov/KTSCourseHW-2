@@ -30,6 +30,7 @@ describe('Тестирование компонента CheckBox', () => {
 
   test('При клике на чекбокс вызывается onChange со значением', () => {
     const mockOnChange = jest.fn();
+
     const { rerender } = render(
       <CheckBox
         checked={true}
